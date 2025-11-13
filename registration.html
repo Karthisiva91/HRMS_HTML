@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HRMS Register</title>
+    <!-- Bootstrap css link -->
+    <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet"/> 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- custom style sheet -->
+    <link href="assets/css/stylesheet.css" type="text/css" rel="stylesheet"/>
+</head>
+<body class="index-page">
+    <header class="header d-flex align-items-center fixed-top py-2" id="mainHeader">
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <!-- brand logo -->
+                <img src="assets/image/goodhand-logo.svg" class="img-fluid" alt="logo">
+            </a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark rounded-50">
+                <div class="container-fluid p-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Our Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <a class="btn btn-white-outline font16" href="#">Sign In</a>
+        </div>
+    </header>
+    <main class="main-section">
+        <!-- Hero section start -->
+         <section class="hero section dark-background">
+            <div class="container">
+                <div class="hero-container">                    
+                    <div class="d-flex flex-column align-items-center justify-content-between pt-3">
+                        <h1 class="text-center hero-header">Complete HRMS with <span>UAE Government Services</span> in One Platform</h1>
+                        <p class="text-center font16 white-color line-height-28 text-width">From payroll to MOHRE, trade license, and visa services, manage everything seamlessly under one roof with unmatched efficiency and compliance.</p>
+                    </div>
+                </div>
+                <div class="box-section">
+                    <div class="profile-overlay floating-box box-1">
+                        <img src="assets/image/profile-hero-img.svg" class="img-fluid" alt="icon"/>
+                    </div>
+                    <div class="attendance-overlay floating-box box-2">
+                        <img src="assets/image/application-hero-img.svg" class="img-fluid" alt="icon"/>
+                    </div>
+                    <div class="employee-overlay floating-box box-3">
+                        <img src="assets/image/employee-hero-img.svg" class="img-fluid" alt="icon"/>
+                    </div>
+                </div>                
+                <!-- register section -->
+                <div class="register-form-section">            
+                    <div class="card registration-card">
+                        <div class="card-header">
+                            <h4 class="card-title header-color font-24 font-bold">Register Now</h4>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-input-field">
+                                    <div class="form-field mb-4">
+                                        <input class="form-control" type="text" placeholder="Email Address"/>
+                                    </div>
+                                    <div class="form-field mb-4">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <select class="form-select" id="validationCustom04" required>
+                                                    <option selected disabled value="">+971</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="phone-nu-field">
+                                                    <input class="form-control" type="text" placeholder="Phone Number"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-field mb-4">
+                                        <input class="form-control" type="text" placeholder="Company Name"/>
+                                    </div>
+                                    <div class="form-field mb-4">
+                                        <div class="row">
+                                            <div class="col-md-6 col-12">
+                                                <input class="form-control" type="text" placeholder="Company ID"/>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <select class="form-select" id="validationCustom04" required>
+                                                    <option selected disabled value="">Select Company Size</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-field mb-4">
+                                        <input class="form-control" type="text" placeholder="Website / Domain"/>
+                                    </div>
+                                </div>
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label font14 font-semibold" for="flexCheckDefault">
+                                    I've read and agree with <a href="#">terms of service</a> of service and our <a href="#">privacy policy</a>.
+                                    </label>
+                                </div>
+                                <div class="form-field mb-4">
+                                    <button type="button" class="btn primary-btn w-100">Register Now</button>
+                                </div>
+                                <p class="text-center font14 font-semibold">Already have an account? <a href="#">Sign in</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- register section end -->
+                <div class="box-section">
+                    <div class="profile-overlay floating-box box-4">
+                        <div class="d-flex services-box align-items-center">
+                            <div class="img-item">
+                                <img src="assets/image/immigration-icon.svg" class="img-fluid" alt="icon"/>
+                            </div>
+                            <span class="mx-2 font16 font-semibold white-color">Immigration Services</span>
+                        </div>
+                    </div>
+                    <div class="attendance-overlay floating-box box-5">
+                        <div class="d-flex services-box align-items-center">
+                            <div class="img-item">
+                                <img src="assets/image/trade-icon.svg" class="img-fluid" alt="icon"/>
+                            </div>
+                            <span class="mx-2 font16 font-semibold white-color">Trade License</span>
+                        </div>
+                    </div>
+                    <div class="employee-overlay floating-box box-6">
+                        <div class="d-flex services-box align-items-center">
+                            <div class="img-item">
+                                <img src="assets/image/dubai-courts-services-icon.svg" class="img-fluid" alt="icon"/>
+                            </div>
+                            <span class="mx-2 font16 font-semibold white-color">Dubai Courts <br>Services</span>
+                        </div>
+                    </div>
+                    <div class="profile-overlay floating-box box-7">
+                        <div class="d-flex services-box align-items-center">
+                            <div class="img-item">
+                                <img src="assets/image/mohre-icon.svg" class="img-fluid" alt="icon"/>
+                            </div>
+                            <span class="mx-2 font16 font-semibold white-color">Ministry of Human <br>Resources & <br>Emiratisation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- Hero section end -->
+
+        <!-- register section -->
+        <div class="register-form-section mobile-register-section">            
+            <div class="card registration-card">
+                <div class="card-header">
+                    <h4 class="card-title header-color font-24 font-bold">Register Now</h4>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-input-field">
+                            <div class="form-field mb-4">
+                                <input class="form-control" type="text" placeholder="Email Address"/>
+                            </div>
+                            <div class="form-field mb-4">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <select class="form-select" id="validationCustom04" required>
+                                            <option selected disabled value="">+971</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="phone-nu-field">
+                                            <input class="form-control" type="text" placeholder="Phone Number"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-field mb-4">
+                                <input class="form-control" type="text" placeholder="Company Name"/>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-12">                                    
+                                    <div class="form-field mb-4">
+                                        <input class="form-control" type="text" placeholder="Company ID"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">                                
+                                    <div class="form-field mb-4">
+                                        <select class="form-select" id="validationCustom04" required>
+                                            <option selected disabled value="">Select Company Size</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-field mb-4">
+                                <input class="form-control" type="text" placeholder="Website / Domain"/>
+                            </div>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label font14 font-semibold" for="flexCheckDefault">
+                            I've read and agree with <a href="#">terms of service</a> of service and our <a href="#">privacy policy</a>.
+                            </label>
+                        </div>
+                        <div class="form-field mb-4">
+                            <button type="button" class="btn primary-btn w-100">Register Now</button>
+                        </div>
+                        <p class="text-center font14 font-semibold">Already have an account? <a href="#">Sign in</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- register section end -->
+        <!-- government services section start -->
+        <section class="section service-section padding-overlay-top padding-100">
+            <div class="container">
+                <!-- service partner logo -->
+                <div class="service-partner-section">
+                    <div class="row justify-content-between pb-2">
+                        <div class="col-md-6">
+                            <h4 class="service-partner-title font-24 secondary-color font-bold">All Government Services</h4>
+                            <p class="font16 font-medium text-gray">Centralized government services made simple, delivering trusted, efficient, and compliant solutions to support every aspect of your business.</p>
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn primary-btn font14 font-bold px-4" type="button">View All Services</button>
+                        </div>
+                    </div>
+                    <div class="logo-slider">
+                        <div class="logo-slide-track">
+                            <!-- Partner logos -->
+                            <div class="logo-slide"><img src="assets/image/fed.svg" alt="Logo 1"></div>
+                            <div class="logo-slide"><img src="assets/image/sr1.svg" alt="Logo 2"></div>
+                            <div class="logo-slide"><img src="assets/image/sr6.svg" alt="Logo 3"></div>
+                            <div class="logo-slide"><img src="assets/image/tawjeeh-logo-01.svg" alt="Logo 4"></div>
+                            <div class="logo-slide"><img src="assets/image/sr4.svg" alt="Logo 5"></div>
+                            <div class="logo-slide"><img src="assets/image/adheeed.svg" alt="Logo 6"></div>
+                            <div class="logo-slide"><img src="assets/image/sr8.svg" alt="Logo 7"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- service partner logo end -->
+                <!-- service card section start -->
+                <div class="service-card-section paddingTop-100">
+                    <div class="service-content-section">
+                        <h2 class="text-center section-header font-bold mb-3"><span>Trade License, MOHRE & Visa</span> Services</h2>
+                        <p class="font16 text-center text-gray text-width-60 m-auto">Access all essential government services, including MOHRE tasks, visa processing, and trade license management through one streamlined platform built for businesses in the UAE.</p>
+                    </div>
+                    <div class="card-section-service">
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/Visa-Stamping.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">Immigration services</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Seamless visa, residency, and immigration support across the UAE.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/Establishment.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">Tasheeel</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Simplified MOHRE transactions for employment contracts, permits, and renewals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/tawjeeh.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">Tawjeeh</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Employee awareness, compliance training, and labor law guidance services.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/MEDICAL-TEST.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">DHA Services</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Comprehensive licensing, medical fitness, and healthcare regulatory solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/Case-Registration.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">Al Adheed</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Trusted court services for documentation, case management, and submissions.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/tourism.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">DET Services</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Streamlined licensing, permits, renewals, and approvals for businesses in Dubai.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/Notary.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">Notary Services</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Reliable notarization of legal documents, ensuring authenticity and official recognition.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card service-card">
+                            <div class="card-body">
+                                <div class="service-thumble-img">
+                                    <img src="assets/image/Legal-Translation.svg" class="img-fluid" alt="service-icon"/>
+                                </div>
+                                <div class="service-detail-text">
+                                    <h4 class="font18 header-color font-bold">Legal Translation</h4>
+                                    <p class="font16 text-gray font-semibold m-0">Accurate certified translations recognized by UAE authorities and courts.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- service card section end -->
+            </div>
+
+        </section>
+        <!-- government services section end -->
+        <!-- feature section start -->
+        <section class="dark-blue-background padding-100 bg-after-img">
+            <div class="container">
+            <!-- slider section start -->
+                <div class="feature-slider-section">
+                    <div class="feature-text-area text-center">
+                        <h2 class="white-color section-header mb-3 font-bold"><span>HRMS</span> Features</h2>
+                        <p class="font16 text-center white-color text-width-60 m-auto">Unlock the power of an HRMS built for innovation, offering unique tools that transform HR operations and elevate workforce management.</p>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="container">
+                        <div class="swiper mySwiper pb-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/user-feature.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Employee Management</h5>
+                                        <p class="font16 white-color font-medium m-0">Centralized platform to track and organize all employee details efficiently.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/payroll-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Payroll & Compensation</h5>
+                                        <p class="font16 white-color font-medium m-0">Automate payroll processing and ensure accurate employee compensation effortlessly.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/leave-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Leave & Attendance</h5>
+                                        <p class="font16 white-color font-medium m-0">Track employee attendance and leave requests accurately in real time.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/employee-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Employee Offboarding</h5>
+                                        <p class="font16 white-color font-medium m-0">Ensure seamless offboarding with organized workflows and documentation tracking.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/management-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Performance Management</h5>
+                                        <p class="font16 white-color font-medium m-0">Monitor and enhance employee performance with actionable insights efficiently.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/document-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Document management</h5>
+                                        <p class="font16 white-color font-medium m-0">Securely organize, store, and access employee documents anytime, anywhere.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/report-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Analytics & Reports</h5>
+                                        <p class="font16 white-color font-medium m-0">Transform workforce data into actionable analytics for smarter management.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/self-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Self-Service Portal</h5>
+                                        <p class="font16 white-color font-medium m-0">Provide a user-friendly portal for easy employee self-management and accessibility.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/approval-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Approval Level</h5>
+                                        <p class="font16 white-color font-medium m-0">Customize multi-step approvals to streamline workflows and ensure compliance.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/organizational-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">Organizational Chart</h5>
+                                        <p class="font16 white-color font-medium m-0">Visualize the company hierarchy clearly to enhance structure and communication.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card slider-card">
+                                        <div class="card-icon">
+                                            <span class="icon-span-feature"><img src="assets/image/end-services-features.svg" class="img-fluid" alt="feature-icon"/></span>
+                                        </div>
+                                        <h5 class="font20 white-color font-bold m-0">End of Services</h5>
+                                        <p class="font16 white-color font-medium m-0">Manage employee exits, clearances, and settlements with complete accuracy.</p>
+                                        <a href="#" class="primary-color font16">Explore Now</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Navigation -->
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                        </div>
+                    </div>
+                </div>
+            <!-- slider section start -->
+                <div class="feature-panel paddingTop-100">
+                    <div class="feature-text-area text-center">
+                        <h2 class="white-color section-header mb-3 font-bold">Smart HRMS <span>Panel & Features</span></h2>
+                        <p class="font16 text-center white-color text-width-60 m-auto">Experience streamlined HR management with features for employee tracking, approvals, documents, and UAE government services in one efficient, intuitive dashboard.</p>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-xxl-3 col-xl-3 col-lg-12">
+                            <div class="d-flex flex-xl-column flex-lg-row flex-column gap-3 align-items-end justify-content-between h-100">
+                                <div class="card card-primary-item radius-7 p-3">
+                                    <div class="card-header border-0 bg-transparent">
+                                        <h4 class="title-card-header white-color font20">Payroll Automation</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="font14 white-color">Streamline visa processing and payroll tasks, reducing errors and saving valuable time.</p>
+                                        <div class="text-end">
+                                            <button class="btn primary-btn font14" type="button">Learn More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-primary-item radius-7 p-3">
+                                    <div class="card-header border-0 bg-transparent">
+                                        <h4 class="title-card-header white-color font20">Leave Management</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="font14 white-color">Monitor employee attendance and leave efficiently, ensuring accurate records and smooth operations.</p>
+                                        <div class="text-end">
+                                            <button class="btn primary-btn font14" type="button">Learn More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-12">
+                            <div class="feature-img-panel text-center">
+                                <img src="assets/image/features-img.svg" class="img-fluid w-100" alt="feature-icon"/>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-12">
+                            <div class="d-flex flex-xl-column flex-lg-row flex-column gap-3 align-items-end justify-content-between h-100">
+                                <div class="card card-primary-item radius-7 p-3">
+                                    <div class="card-header border-0 bg-transparent">
+                                        <h4 class="title-card-header white-color font20">Performance Reports</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="font14 white-color">Generate employee and business performance with easy-to-access reporting tools.</p>
+                                        <div class="text-end">
+                                            <button class="btn primary-btn font14" type="button">Learn More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card card-primary-item radius-7 p-3">
+                                    <div class="card-header border-0 bg-transparent">
+                                        <h4 class="title-card-header white-color font20">Virtual Helper</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="font14 white-color">Automate employee queries and support tasks, improving HR efficiency and responsiveness.</p>
+                                        <div class="text-end">
+                                            <button class="btn primary-btn font14" type="button">Learn More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- feature section end -->
+          
+        <!-- our mission section start -->
+        <section class="section service-section padding-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                         <h2 class="secondary-color section-header mb-3 font-bold"><span>Our</span> Mission</h2>
+                         <p class="font14 font-semibold mt-5 line-height-28 w-90">Goodhand serves as the vital link between businesses and UAE government authorities, providing a secure, compliant, and fully recognized digital platform for corporate and Government operations. Whether you're a startup navigating your first trade license or an established enterprise managing a large of employees</p>
+                         <div class="list-items mt-5">
+                            <ul class="p-0">
+                                <li class="list-border d-flex align-items-center font-semibold p-2 gap-2"><img src="assets/image/check-circle.svg" class="img-fluid" alt="icon"/> Amer - Visa and residency management.</li>
+                                <li class="list-border d-flex align-items-center font-semibold p-2 gap-2"><img src="assets/image/check-circle.svg" class="img-fluid" alt="icon"/> Tasheel - Labour and employment processing.</li>
+                                <li class="list-border d-flex align-items-center font-semibold p-2 gap-2"><img src="assets/image/check-circle.svg" class="img-fluid" alt="icon"/> DET - Business licensing and permits.</li>
+                                <li class="list-border d-flex align-items-center font-semibold p-2 gap-2"><img src="assets/image/check-circle.svg" class="img-fluid" alt="icon"/> Emirates ID & DHA - Employee ID and health.</li>
+                                <li class="list-border d-flex align-items-center font-semibold p-2 gap-2"><img src="assets/image/check-circle.svg" class="img-fluid" alt="icon"/> Tawjeeh & Al Adheed - Labour awareness and compliance.</li>
+                                <li class="list-border d-flex align-items-center font-semibold p-2 gap-2"><img src="assets/image/check-circle.svg" class="img-fluid" alt="icon"/> Notary & Legal Translation - Notarized and translated documents.</li>
+                            </ul>
+                         </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="our-mission-img-section mt-5">
+                            <img src="assets/image/our-mission-img.png" class="img-fluid w-auto" alt="our-mission"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our mission section end -->
+        <!-- testimonial section start -->
+        <section class="dark-blue-background padding-100 bg-after-img">
+            <div class="container">
+            <!-- what client say header -->
+                <div class="row justify-content-between pb-2">
+                    <div class="col-md-6">
+                        <h2 class="white-color section-header mb-3 font-bold">What Our Clients Say</h2>
+                        <p class="font16 font-medium white-color">Discover authentic client testimonials highlighting seamless processes, improved productivity, and long-term satisfaction with our HRMS services.</p>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn primary-btn font14 font-bold px-4" type="button">View All</button>
+                    </div>
+                </div>
+                    <!-- Swiper -->
+                    <div class="container">
+                        <div class="feature-slider pb-2 swiper featureSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card feature-card bg-transparent p-4">
+                                    <div class="card-header pb-2 p-0 d-flex gap-2 bg-transparent">
+                                        <span class="feature-icon-box">
+                                            <img src="assets/image/user-img.svg" class="img-fluid" alt="feature-icon" />
+                                        </span>
+                                        <span>
+                                            <h4 class="font18 white-color m-0">Jonathon Bartlett</h4>
+                                            <p class="font14 white-color font-nomral">Chef Human Resource Officer  </p>
+                                        </span>
+                                    </div>
+                                    <div class="card-body pt-3 p-0">                                        
+                                        <p class="font16 white-color font-medium m-0 line-height-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sollicitudin fermentum lectus, non semper enim placerat a. Etiam lacinia massa turpis, at facilisis velit malesuada eget. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add all your other slides here with the same structure -->
+                        </div>
+
+                        <!-- Navigation & Pagination -->
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div> -->
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- testimonial section end -->
+
+        <!-- Business Management section start -->
+        <section class="padding-100">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="m-auto col-xxl-8 col-xl-8 col-lg-12 col-md-12">
+                        <div class="top-headtext d-flex gap-2 align-items-center justify-content-center mb-4">
+                            <span class="trust-img"><img src="assets/image/shield.svg" class="img-fluid" alt="icon"/></span>
+                            <h4 class="font16 secondary-color m-0">Trusted by Professionals</h4>
+                        </div>
+                        <h2 class="secondary-color section-header mb-4 mt-3 font-bold">Start Smarter <span>Business Management</span></h2>
+                        <p class="font14 font-semibold mb-4 w-75 mt-3 m-auto">Join thousands of businesses streamlining HR and corporate services with Goodhand. Register in minutes and manage licenses, visas, and compliance, all in one place.</p>
+                        <button class="btn primary-btn px-5 mb-4 mt-3" type="button">Register Now</button>
+                        <div class="d-flex gap-sm-5 gap-2 flex-column flex-sm-row justify-content-center mt-3">
+                            <span class="secondary-color font14 font-bold">✓ No setup fees</span>
+                            <span class="secondary-color font14 font-bold">✓ 24/7 support</span>
+                            <span class="secondary-color font14 font-bold">✓ Government approved</span>
+                            <span class="secondary-color font14 font-bold">✓ Secure & compliant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Business Management section end -->
+         <!-- footer section start -->
+          <footer class="dark-blue-background paddingTop-100 bg-after-img">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-xxl-3 col-lg-3 col-md-6 col-12">
+                        <div class="footer-logo-section mb-4">
+                            <img src="assets/image/goodhand-logo.svg" class="img-fluid" alt="goodhand-logo"/>
+                        </div>
+                        <p class="font16 font-medium white-color">Goodhand provides complete business solutions beyond HRMS, offering government services and trusted expertise, recognized for reliability, professionalism, and excellence across diverse industries in the UAE.</p>
+                        <div class="social-media-section">
+                            <div class="d-flex gap-3 align-items-center">
+                                <a href="#" class="btn bg-transparent p-0" type="button"><img src="assets/image/facebook-icon.svg" class="img-fluid" alt="goodhand-facebook-icon"/></a>
+                                <a href="#" class="btn bg-transparent p-0" type="button"><img src="assets/image/linkedin-icon.svg" class="img-fluid" alt="goodhand-linkedin-icon"/></a>
+                                <a href="#" class="btn bg-transparent p-0" type="button"><img src="assets/image/instagram-icon.svg" class="img-fluid" alt="goodhand-instagram-icon"/></a>
+                                <a href="#" class="btn bg-transparent p-0" type="button"><img src="assets/image/twitter-icon.svg" class="img-fluid" alt="goodhand-twitter-icon"/></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-lg-3 col-md-6 col-12">
+                        <div class="footer-list-item">
+                            <h4 class="font18 white-color font-bold mb-3">Features</h4>
+                            <ul class="m-0 p-0">
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Employee Management</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Payroll & Compensation</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Leave & Attendance</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Employee Offboarding</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Performance Management</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Analytics & Reports</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Self-Service Portal</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Document Managements</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-lg-3 col-md-6 col-12">
+                        <div class="footer-list-item">
+                            <h4 class="font18 white-color font-bold mb-3">Services</h4>
+                            <ul class="m-0 p-0">
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Immigration services</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Tasheeel</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Tawjeeh</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Dubai Health Authority Services</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Al Adheed</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Legal Translation</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Dubai Department of Economy & Tourism</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-lg-3 col-md-6 col-12">                        
+                        <div class="footer-list-item">
+                            <h4 class="font18 white-color font-bold mb-3">Company</h4>
+                            <ul class="p-0">
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">About Us</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Partners</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Services</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 footer-quick-link font-medium text-decoration-none">Contact Us</a></li>
+                            </ul>
+                        </div>                    
+                        <div class="footer-list-item">
+                            <h4 class="font18 white-color font-bold mb-3">Contact </h4>
+                            <ul class="m-0 p-0">
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 white-color text-decoration-none"><span><img src="assets/image/mail-icon.svg" class="img-fluid mr-2" alt="mail-icon"/></span>custormerservice@goodhands.com</a></li>
+                                <li class="d-block px-0 p-2"><a href="#" class="font16 white-color font-medium text-decoration-none"><span><img src="assets/image/location-icon.svg" class="img-fluid mr-2" alt="location-icon"/></span> M-01 Saraya Plaza, Al Rigga Road, Al Rigga - Dubai</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- copyright section -->
+                 <div class="copy-right-item">
+                    <div class="row gap-3">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+                            <p class="m-0 font14 white-color font-medium text-decoration-none">Copyright © 2025. <a href="#" class="white-color">Goodhands</a>. All Rights Reserved.</p>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+                            <div class="d-flex gap-5 align-items-center justify-content-md-end">
+                                <a href="#" class="white-color font14 text-decoration-none font-nomral">Privacy Policy</a>
+                                <a href="#" class="white-color font14 text-decoration-none font-nomral">Terms Conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+          </footer>
+          <!-- footer section end -->
+    </main>
+
+<!-- boostrap script -->
+ <script src="assets/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper(".mySwiper", {
+    spaceBetween: 20,
+    loop: true,
+    autoplay: true,
+    grabCursor: true,
+    centeredSlides: false,
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+      1300: {
+        slidesPerView: 4,
+      },
+    },
+  });
+
+  // Pause on hover
+  const swiperEl = document.querySelector(".mySwiper");
+  if (swiperEl) {
+    swiperEl.addEventListener("mouseenter", () => swiper.autoplay.stop());
+    swiperEl.addEventListener("mouseleave", () => swiper.autoplay.start());
+  }
+});
+
+  //testimonial slider js
+  const featureSwiper = new Swiper(".featureSwiper", {
+    slidesPerView:  "auto",
+    spaceBetween: 25,
+    loop: true,
+    autoplay: {
+      delay: 3500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      576: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+      1300: {
+        slidesPerView: 4,
+      },
+    },
+  });
+
+  window.addEventListener("scroll", function() {
+    const header = document.getElementById("mainHeader");
+    if (window.scrollY > 100) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+</script>
+</body>
+</html>
